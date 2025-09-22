@@ -26,7 +26,7 @@ process map_to_build {
     -f $tsv \
     -from_build \$from_build \
     -to_build $params.to_build \
-    -vcf "${params.ref}/homo_sapiens-chr*.parquet" \
+    -vcf "${params.ref}/homo_sapiens-chr[0-9]*.parquet" \
     -chroms "${chr}" \
     -coordinate \$coordinate
     """

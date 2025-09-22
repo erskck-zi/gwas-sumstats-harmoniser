@@ -80,10 +80,10 @@ def input_list(input) {
     if (matcher) {
         // Extract GCST ID using regex find
         def gcstId = matcher[0]  // Get the first match
-        return [gcstId, input+"-meta.yaml", input]
+        return [gcstId, "/zi/flstorage/HITKIP/share/UKB_clean_list/GWAS/31427789_131/formatted/31427789_131.formatted.tsv-meta.yaml", input]
     } else {
         // Default case
-        return [baseName, input+"-meta.yaml", input]
+        return [baseName, "/zi/flstorage/HITKIP/share/UKB_clean_list/GWAS/31427789_131/formatted/31427789_131.formatted.tsv-meta.yaml", input]
     }
 }
 
