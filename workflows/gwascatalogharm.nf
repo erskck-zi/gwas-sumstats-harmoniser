@@ -89,7 +89,7 @@ def input_files(input) {
     } else {
         // Default case
         println "no,other setting"
-        return [baseName, input+"-meta.yaml", input]
+        return [baseName, "/zi/flstorage/HITKIP/share/UKB_clean_list/GWAS/31427789_131/formatted/31427789_131.formatted.tsv-meta.yaml", input]
     }
 }
 /*
