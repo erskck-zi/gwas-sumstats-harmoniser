@@ -26,4 +26,3 @@ RUN pip install --upgrade pip \
 # then copy code
 COPY . /app
 ENV PATH="/app:${PATH}"
-
